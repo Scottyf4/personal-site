@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="navigation">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4 nav-title">Personal Site</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#resume" class="nav-link">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </header>
+    </section>
+    <section id="hero" class="head-hero">
+      <div class="container col-xxl-8 col-sm-12 px-4">
+        <div
+          class="head-sec row flex-lg-row-reverse align-items-center g-5 py-5"
+        >
+          <div class="col-lg-6 col-sm-12">
+            <img
+              src="./Images/scott.PNG"
+              class="d-block mx-lg-auto img-fluid self-image"
+              alt="Bootstrap Themes"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h1 class="display-5 lh-1 mb-3 hero-title">Scott Fletcher</h1>
+            <p class="lead hero-tag">
+              I am a hard working husband & Father. I love to learn new skills
+              and I am currently learning Web Devlopment to create a new career
+              for myself and a better life for my family.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="resume">
+      <div class="container">
+        <h2 class="head2 my-3 py-3 text-center">Resume</h2>
+        <hr />
+        <div class="row mt-5">
+          <div class="r-card col-lg-4 col-sm-12 text-center">
+            <h3 class="head3">
+              <img class="icon" src="./Images/house.svg" alt="house image" />
+              Homebase
+            </h3>
+            <p>Assistant Manager</p>
+            <p id="dates">2015 - Present</p>
+            <ul>
+              <li>Responsible for a team of 35 employees</li>
+              <li>Over see all opertaions duties for the store</li>
+              <li>HR liason for the team</li>
+              <li>Horitculture Champion for 15 stores</li>
+            </ul>
+          </div>
+          <div class="r-card col-lg-4 col-sm-12 text-center">
+            <h3 class="head3">
+              <img class="icon" src="./Images/house.svg" alt="house image" />
+              Homebase
+            </h3>
+            <p>Team Leader</p>
+            <p id="dates">2012 - 2015</p>
+            <ul>
+              <li>Responsible for a team of 12 employees</li>
+              <li>Managed and oversall all payments & banking</li>
+              <li>Dealt with all customer queries and complaints</li>
+            </ul>
+          </div>
+          <div class="r-card col-lg-4 col-sm-12 text-center">
+            <h3 class="head3">
+              <img class="icon" src="./Images/cup-straw.svg" alt="cup image" />
+              Kozi Bar
+            </h3>
+            <p>Assistant manager</p>
+            <p id="dates">2007 - 2012</p>
+            <ul>
+              <li>Managed a team of 10 employees</li>
+              <li>Placing orders for front of house and kithen</li>
+              <li>Rostering and payroll</li>
+              <li>Support Front of House and Kitchen operations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="jumbotron text-center project-block">
+      <div class="container mt-5">
+        <h1 class="head2 pt-5 my-3">Project Work</h1>
+        <p class="lead hero-tag">
+          Please feel free to take a look at some of my current work below.
+        </p>
+      </div>
+      <div class="album py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-4 mx-4 box-shadow">
+                <img
+                  class="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Thumbnail [100%x225]"
+                  src="./Images/tindog.png"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                />
+                <div class="card-body">
+                  <p id="dates" class="card-text">
+                    Tindog. A website to allow dogs to meet other like minded
+                    dogs.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary"
+                      >
+                        <a href="https://scottyf4.github.io/Tindog/">Visit</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-4 mx-4 box-shadow">
+                <img
+                  class="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Thumbnail [100%x225]"
+                  src="./Images/movewithjoy.png"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                />
+                <div class="card-body">
+                  <p id="dates" class="card-text">
+                    Move With Joy. A professional website made entirly from
+                    Bootstrap Components
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary"
+                      >
+                        <a href="https://scottyf4.github.io/Movewithjoy/"
+                          >Visit</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-4 mx-4 box-shadow">
+                <img
+                  class="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Thumbnail [100%x225]"
+                  src="./Images/resume.png"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                />
+                <div class="card-body">
+                  <p id="dates" class="card-text">
+                    A basic HTML Resume site. A great example of where I began
+                    and how far I have come.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary"
+                      >
+                        <a href="https://scottyf4.github.io/resume/">Visit</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-me">
+      <div class="grid-container">
+        <div class="item education">
+          <h3 class="head3">Education</h3>
+          <p class="about-info">Warwickshire College 2000-2002</p>
+          <p class="about-info">Aylesford Sixth Form 1998-2000</p>
+          <p class="about-info">Aylesford School 1994-1998</p>
+        </div>
+        <div class="item skills">
+          <h3 class="head3">Skills</h3>
+          <div class="grid-container-inner text-center">
+            <div class="skills-inner">
+              <p class="hero-tag">HTML 80%</p>
+              <img class="about-img" src="./Images/html.png" alt="html logo" />
+            </div>
+            <div class="skills-inner">
+              <p class="hero-tag">CSS 70%</p>
+              <img class="about-img" src="./Images/css.png" alt="html logo" />
+            </div>
+            <div class="skills-inner">
+              <p class="hero-tag">Java Script 0%</p>
+              <img class="about-img" src="./Images/java.png" alt="java logo" />
+            </div>
+            <div class="skills-inner">
+              <p class="hero-tag">Cooking 100%</p>
+              <img
+                class="about-img"
+                src="./Images/cooking1.png"
+                alt="java logo"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="item goals">
+          <h3 class="head3">Goals</h3>
+          <p class="about-info">Become a Full Stack Web Developer.</p>
+          <p class="about-info">
+            To provide my family with everything they would wish for.
+          </p>
+          <p class="about-info">
+            Create a portfolio to display everything I have learnt.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container project-block">
+        <footer class="py-3">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a
+                class="foot-item"
+                href="https://www.instagram.com/scottfletcher286/"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  fill="white"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                  /></svg
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="foot-item" href="https://github.com/Scottyf4"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  fill="white"
+                  class="bi bi-github"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  /></svg
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="foot-item"
+                href="https://www.facebook.com/scott.fletcher.54"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  fill="white"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                  /></svg
+              ></a>
+            </li>
+          </ul>
+          <p class="text-center text-body-light foot-name">© Scott Fletcher</p>
+        </footer>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
